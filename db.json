@@ -1,0 +1,14 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iphone 15 Pro Max",
+            "price": "40.000.000vnd"
+        },
+        {
+            "id": 2,
+            "name": "iphone 14 Pro Max",
+            "price": "35.000.000vnd"
+        }
+    ]
+}
