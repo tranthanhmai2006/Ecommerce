@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:wght@100&family=Schibsted+Grotesk&display=swap');
+
+
+
+body { 
+    font-family : 'Poppins', sans-serif ;
+}
+header {
+    width: 100%;
+}
+.header-top {
+    height: 40px;
+    /* padding: 8px 0; */
+    gap: 508px;
+    background: var(--neutral-02100, #F3F5F7);
+}
+.header-top p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    line-height: 40px;
+}
+.header-top p a {
+    color: #377DFF;
+    transition: all 0.4s;
+}
+.header-top p a:hover {
+    color: #f44336;
+}
+.header-bottom {
+    width: 100%;
+    padding: 16px 160px;
+    align-items: center;
+    gap: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-bottom h1 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+.header-bottom h1:hover {
+    color: antiquewhite;
+}
+.header-bottom .header_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;  
+}
+.header-bottom .icon-header {
+    display: flex;
+}
+
+/* carousel */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-slide {
+    width: 100%;
+    height: 536px;
+  }
+  .img-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .container_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+  }
+  .container_content .title1 p {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: -2px;
+  }
+  .container_content .title1 p span {
+    color:#ccc;
+  }
+  .container_content .title2 p span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: black;
+  }
+  .container_content .title2 p {
+    font-size: 16px;
+    color: #6C7275;
+    font-weight: 400;
+    line-height: 26px;
+    /* text-align: center; */
+  }
+  .container_interior {
+    display: flex;
+    width: 100%;
+    height: 664px;
+  }
+  .container_interior .livingroom,.bedroom,.kitchen {
+    position: relative;
+  }
+  .container_interior .content {
+    position: absolute;
+    top: 10px
+  }
+  .container_interior .livingroom {
+    width: 50%;
+    height: 664px;
+  }
+  .container_interior .bed-kit-room {
+    width: 50%;
+    height: 319px;
+  }
+  .container_interior .livingroom img {
+    width: 100%;
+    height: 100%;
+  }
+  .container_interior .bed-kit-room .bedroom,.kitchen {
+    width: 100%;
+    height: 50%;
+  }
+  .container_interior .bed-kit-room .bedroom,.kitchen img {
+    width: 100%;
+    height: 100%;
+  }
+
